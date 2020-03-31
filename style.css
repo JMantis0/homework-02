@@ -1,0 +1,79 @@
+
+#mother {
+
+	padding: 0;
+	background-image: url("assets/images/purple-shapes.png");
+	background-size: cover;
+}
+
+#site-header {
+	font-family: 'Volkhov', serif;
+	color: white;
+	font-size: 40px;
+	background-color: rgb(72, 62, 83);
+	text-align: center;
+	padding: 20px;
+}
+
+.nav {
+	
+	background-color: white;
+	border-bottom: 5px solid rgb(185, 189, 194);
+	border-top: 5px solid rgb(185, 189, 194);
+	border-style: ridge;
+	box-sizing: content-box;
+	padding: 20px;
+}
+
+.nav-link {
+	font-size: 18px;
+	color: rgb(58, 60, 63);
+}
+
+/* adds a right border on all nav list items*/
+.nav>li{
+	border-right: 1px solid rgb(185, 189, 194)
+   }
+
+/*removes border from last nav list item*/
+.nav>li:last-child{
+	border: none;
+}
+
+#background-image {
+	width: 100%;
+	margin-bottom: 25px;
+	background-image: url("assets/images/sky-background.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+#main {
+	width: 90%;
+	margin: auto;
+	background-color:white;
+	border: 1px solid rgb(185, 189, 194);
+}
+
+#card-header {
+	color: rgb(72, 62, 83);
+	font-family: 'Volkhov', serif;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 50px;
+}
+
+#card-hr {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+#bio-image {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	
+}
+
