@@ -1,28 +1,24 @@
 
-#mother {
+#first-container {
 
-	padding: 0;
-	background-image: url("assets/images/purple-shapes.png");
-	background-size: cover;
+
 }
 
-#site-header {
+#header {
+	border-bottom: 5px solid rgb(185, 189, 194);
+	border-style: ridge;
+}
+
+#student-name {
 	font-family: 'Volkhov', serif;
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 	background-color: rgb(72, 62, 83);
-	text-align: center;
-	padding: 20px;
 }
 
 .nav {
 	
 	background-color: white;
-	border-bottom: 5px solid rgb(185, 189, 194);
-	border-top: 5px solid rgb(185, 189, 194);
-	border-style: ridge;
-	box-sizing: content-box;
-	padding: 20px;
 }
 
 .nav-link {
@@ -40,21 +36,21 @@
 	border: none;
 }
 
-#background-image {
-	width: 100%;
-	margin-bottom: 25px;
-	background-image: url("assets/images/sky-background.jpeg");
-	background-size: cover;
-	background-position: center;
+#second-container {
+	width: 95%;
 }
+
+#card-column {
+	padding:0;
+}
+
 #main {
-	width: 90%;
-	margin: auto;
+	margin-top: 30px;
 	background-color:white;
 	border: 1px solid rgb(185, 189, 194);
 }
 
-#card-header {
+.card-title {
 	color: rgb(72, 62, 83);
 	font-family: 'Volkhov', serif;
 	margin-left: 5%;
@@ -67,13 +63,27 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
+.clearfix::after {
+	content: " ";
+	display: block;
+	clear: both;
+   }
+
 #bio-image {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+	width: 300px;
+	
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
 	
 }
+
+.card-text {
+	margin: 10px;
+	font-size: 18px;
+}
+
 
