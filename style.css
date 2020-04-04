@@ -1,24 +1,39 @@
-
-#first-container {
-
-
+body {
+	border: 5px solid black;
+	background-image: url("Assets/Images/Background/purple-shapes.png");
+	background-size: cover;
+	background-position: center;
 }
 
-#header {
-	border-bottom: 5px solid rgb(185, 189, 194);
+/* Selectors that style header */
+#header-container {
+	width: 100%;
+	background-color: white;
+	
+}
+
+#header-row {
+	border: solid 2px  rgb(72, 62, 83);
 	border-style: ridge;
 }
 
 #student-name {
 	font-family: 'Volkhov', serif;
 	color: white;
-	font-size: 30px;
 	background-color: rgb(72, 62, 83);
+	margin-left: 5%;
+	font-size: 25px;
+	height: 100%;
+	padding: 20px 35px;
 }
 
+h1 {
+	font-weight: bold;
+	font-size:25px;
+}
+
+
 .nav {
-	
-	background-color: white;
 }
 
 .nav-link {
@@ -26,64 +41,126 @@
 	color: rgb(58, 60, 63);
 }
 
-/* adds a right border on all nav list items*/
+
 .nav>li{
 	border-right: 1px solid rgb(185, 189, 194)
    }
 
-/*removes border from last nav list item*/
+
 .nav>li:last-child{
 	border: none;
 }
 
-#second-container {
-	width: 95%;
+
+#main-container {
+	width: 90%;
+	height: 800px;
+	margin-left: 5%;
+	
 }
 
-#card-column {
+#primary-column {
 	padding:0;
 }
 
-#main {
+#display-section {
 	margin-top: 30px;
-	background-color:white;
-	border: 1px solid rgb(185, 189, 194);
+	background-color: white;
+	border: solid 2px  rgb(72, 62, 83);
+	display: inline-block;
 }
 
-.card-title {
+.title {
 	color: rgb(72, 62, 83);
 	font-family: 'Volkhov', serif;
 	margin-left: 5%;
 	text-align: left;
-	margin-top: 50px;
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
-#card-hr {
+#rule {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
-.clearfix::after {
-	content: " ";
-	display: block;
-	clear: both;
-   }
-
 #bio-image {
-	width: 300px;
-	
+	border: solid 2px  rgb(72, 62, 83);
+	width: 170px;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	float: left;
-	
 }
 
 .card-text {
-	margin: 10px;
-	font-size: 18px;
+	line-height: 2;
+	font-size: 16px;
+	margin-left:31px;
+	margin-right:31px;
+}
+
+.footer {
+	border-top: 5px solid  rgb(72, 62, 83);
+	font-family: 'Volkhov', serif;
+	color: white;
+	background-color: gray;
+	padding: 30px;
+}
+
+.bigger {
+	margin: 0;
+	font-size: 12px;
+}
+
+.smaller {
+	font-size: 10px;
+	margin: 0;
 }
 
 
+	
+
+/* Selectors that activate for (m), (l) and (xl) viewports */
+@media screen and (min-width: 768px) {
+	#main-container {
+		width: 600px;
+	}
+
+}
+
+/* Selectors that activate for (xs) and (s) viewports */
+@media screen and (max-width: 767px) {
+	#bio-image {
+		align-self: center;
+		width: 90%;
+		float:none;
+	}
+
+	#student-name {
+		margin-left: 0px;
+	}
+
+	.card-text {
+		font-size: 14px;
+	}
+
+}
+
+/* Selectors that activate for (xs) viewports */
+@media screen and (max-width: 575px) {
+	#header-container  {
+		width: 100%;
+	}
+
+	#main-container {
+		width: 100%;
+		margin: auto;
+	}
+
+}
