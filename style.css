@@ -51,11 +51,10 @@ h1 {
 	border: none;
 }
 
-
 #main-container {
 	width: 90%;
-	height: 800px;
 	margin-left: 5%;
+	margin-bottom: 50%;
 	
 }
 
@@ -88,14 +87,43 @@ h1 {
 	margin-bottom: 30px;
 }
 
-#bio-image {
+
+
+.card-img {
 	border: solid 2px  rgb(72, 62, 83);
-	width: 170px;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	float: left;
+	align-self:center;
+}
+
+.index .card-img {
+	width: 170px;
+}
+
+.portfolio .card-img {
+	width: 100%;
+	
+}
+
+.portfolio .card {
+	border: none;
+	
+}
+
+.card-img-overlay {
+	font-family: 'Volkhov', serif;
+	font-size: 20px;
+	width:100%;
+	padding:0;
+}
+
+.card-title {
+	background-color: rgb(72, 62, 83);
+	text-align: center;
+	width: 100%;
 }
 
 .card-text {
@@ -106,20 +134,24 @@ h1 {
 }
 
 .footer {
-	border-top: 5px solid  rgb(72, 62, 83);
+	border-top: 2px solid  rgb(72, 62, 83);
+
 	font-family: 'Volkhov', serif;
 	color: white;
 	background-color: gray;
-	padding: 30px;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 .bigger {
 	margin: 0;
-	font-size: 12px;
+	font-size: 8px;
 }
 
 .smaller {
-	font-size: 10px;
+	font-size: 6px;
 	margin: 0;
 }
 
@@ -129,15 +161,14 @@ h1 {
 /* Selectors that activate for (m), (l) and (xl) viewports */
 @media screen and (min-width: 768px) {
 	#main-container {
-		width: 600px;
+		width: 685px;
 	}
 
 }
 
 /* Selectors that activate for (xs) and (s) viewports */
 @media screen and (max-width: 767px) {
-	#bio-image {
-		align-self: center;
+	.card-img {
 		width: 90%;
 		float:none;
 	}
