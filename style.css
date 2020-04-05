@@ -82,6 +82,15 @@ h1 {
 	font-weight: bold;
 }
 
+.subtitle {
+	color: rgb(72, 62, 83);
+	font-family: 'Volkhov', serif;
+	font-size: 20px;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 25px;
+}
+
 #rule {
 	width: 90%;
 	margin-left: auto;
@@ -134,11 +143,15 @@ form {
 	opacity: 90%
 }
 
+
 .card-text {
 	line-height: 2;
 	font-size: 16px;
 	margin-left:31px;
 	margin-right:31px;
+}
+
+
 }
 
 /* selectors that style footer elements */
@@ -193,7 +206,7 @@ form {
 	.card-text {
 		font-size: 14px;
 	}
-
+	
 }
 
 /* Selectors that activate for (xs) viewports */
