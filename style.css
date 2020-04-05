@@ -1,5 +1,5 @@
 body {
-	border: 5px solid black;
+	border: 2px solid black;
 	background-image: url("Assets/Images/Background/purple-shapes.png");
 	background-size: cover;
 	background-position: center;
@@ -67,11 +67,6 @@ h1 {
 	display: inline-block;
 }
 
-.form {
-	width: 100%;
-
-}
-
 .title {
 	color: rgb(72, 62, 83);
 	font-family: 'Volkhov', serif;
@@ -82,14 +77,6 @@ h1 {
 	font-weight: bold;
 }
 
-.subtitle {
-	color: rgb(72, 62, 83);
-	font-family: 'Volkhov', serif;
-	font-size: 20px;
-	margin-left: 5%;
-	text-align: left;
-	margin-top: 25px;
-}
 
 #rule {
 	width: 90%;
@@ -123,6 +110,7 @@ h1 {
 }
 
 form {
+	width: 100%;
 	padding-bottom: 20px;
 }
 
@@ -143,15 +131,11 @@ form {
 	opacity: 90%
 }
 
-
 .card-text {
 	line-height: 2;
 	font-size: 16px;
 	margin-left:31px;
 	margin-right:31px;
-}
-
-
 }
 
 /* selectors that style footer elements */
@@ -175,9 +159,6 @@ form {
 	font-size: 6px;
 	margin: 0;
 }
-
-
-	
 
 /* Selectors that activate for (m), (l) and (xl) viewports */
 @media screen and (min-width: 768px) {
@@ -206,13 +187,12 @@ form {
 	.card-text {
 		font-size: 14px;
 	}
-
-	
 	
 }
 
 /* Selectors that activate for (xs) viewports */
 @media screen and (max-width: 575px) {
+
 	#header-container  {
 		width: 100%;
 	}
@@ -228,6 +208,6 @@ form {
 
 	.nav-link{
 		padding: 8px 4px;
-
 	}
+
 }
