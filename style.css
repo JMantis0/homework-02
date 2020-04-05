@@ -3,6 +3,8 @@ body {
 	background-image: url("Assets/Images/Background/purple-shapes.png");
 	background-size: cover;
 	background-position: center;
+	min-width:319px;
+	
 }
 
 /* Selectors that style header elements */
@@ -33,7 +35,7 @@ h1 {
 }
 
 .nav-link {
-	font-size: 18px;
+	font-size: 17px;
 	color: rgb(58, 60, 63);
 }
 
@@ -100,7 +102,7 @@ h1 {
 }
 
 .portfolio .card-img {
-	width: 100%;
+	width: 95%;
 }
 
 .portfolio .card {
@@ -111,8 +113,9 @@ h1 {
 .card-img-overlay {
 	font-family: 'Volkhov', serif;
 	font-size: 20px;
-	width: 100%;
-	margin-top: 45%;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 40%;
 	padding: 0;
 }
 
