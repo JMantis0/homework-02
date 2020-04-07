@@ -29,3 +29,12 @@ How to research Bootstrap documentation and use open-source code to add useful p
 How to utilize prebuilt framework classes such as columns and rows to control how elements render.
 
 The value of spending time sketching out a design on paper before diving into coding.
+
+That 
+
+```html, body {
+	margin: 0;
+	height: 100%;
+}
+```
+Can resolve issues where background image does not fill the whole screen on some browsers.
