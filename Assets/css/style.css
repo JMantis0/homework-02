@@ -95,6 +95,10 @@ h1 {
 	margin-bottom: 30px;
 }
 
+.card {
+	cursor: pointer;
+}
+
 .card-img {
 	border: solid 2px  rgb(72, 62, 83);
 	margin-left: 5%;
@@ -150,6 +154,12 @@ form {
 	margin-right:31px;
 }
 
+.project-link {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: -12px;
+	text-align: center;
+}
 /* selectors that style footer elements */
 .footer {
 	border-top: 2px solid  rgb(72, 62, 83);
@@ -221,6 +231,15 @@ form {
 
 	.nav-link{
 		padding: 8px 4px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.modal-xl {	
+		width: 90%;
+		max-width:1200px;
 	}
 
 }
