@@ -191,12 +191,16 @@ form {
 
 }
 
+@media screen and (max-width: 991px) {
+
+	#student-name {
+		margin-left: 0;
+	}
+
+}
+
 /* Selectors that activate for (xs) and (s) viewports */
 @media screen and (max-width: 767px) {
-	
-	#student-name {
-		margin-left: 0px;
-	}
 
 	.card-title {
 		padding: 20px 0px;
@@ -229,17 +233,8 @@ form {
 
 @media screen and (max-width: 398px) {
 
-	.nav-link{
+	.nav-link {
 		padding: 8px 4px;
-	}
-
-}
-
-@media (min-width: 768px) {
-
-	.modal-xl {	
-		width: 90%;
-		max-width:1200px;
 	}
 
 }
