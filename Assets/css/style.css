@@ -95,10 +95,6 @@ h1 {
 	margin-bottom: 30px;
 }
 
-.card {
-	cursor: pointer;
-}
-
 .card-img {
 	border: solid 2px  rgb(72, 62, 83);
 	margin-left: 5%;
